@@ -13,7 +13,7 @@ const responseSchema = new mongoose.Schema({
     },
     selectedOption:{
         type:String,
-        required:true
+        //required:true
     }
 },{timestamps:true});
 
